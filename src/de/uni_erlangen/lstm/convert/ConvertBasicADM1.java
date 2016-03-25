@@ -71,6 +71,7 @@ public class ConvertBasicADM1 {
 		outputs.setX_li(inputs.getToc()*frac[2]*(yLIP/4)*mwO2);
 		outputs.setX_pr(inputs.getToc()*frac[1]*(yPRO/4)*mwO2);
 		
+		// TODO: Check if better way of extracting S_cat and S_an from alkalinity measurements
 		// S_cat - S_an = alkVFA + alkIC
 		// Assume S_an is 1/2 of S_cat (always cations minus anions for S_H_ion calc)
 		outputs.setS_cat(inputs.getAlkVFA()+inputs.getAlkIC()*1.5);

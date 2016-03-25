@@ -11,12 +11,13 @@ package de.uni_erlangen.lstm.inputs;
  *
  */
 public class Basic {
-	double flow;
-	double cod;
-	double toc;
-	double nOrg;
-	double alkIC;
-	double alkVFA;		
+	double flow; // Influent Flow Rate [m3/d]
+	double cod; // Chemical Oxygen Demand (COD) [kg/m3]
+	double toc; // Total Organic Carbon (TOC) [kg/m3]
+	double nOrg; // Organic nitrogen (Norg) [kg/m3]
+	// Alkalinity (Alk), consisting of:
+	double alkIC; // Bicarbonate Alkalinity [kg CaCO3/m3]
+	double alkVFA;	// Neutralized Fatty Acids [kg CaCO3/m3]
 	
 	// Molar masses
 	private double mO = 15.9994;
