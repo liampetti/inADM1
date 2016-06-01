@@ -7,9 +7,9 @@ import de.uni_erlangen.lstm.models.adm1.StateVariables;
 public class BasicTest {
 	// Inputs
 	private static double flow = 170.0; // m3/d
-	private static double cod = 0.015; // kg/m3
-	private static double toc = 0.005; // kg/m3
-	private static double nOrg = 0.0003; // kg/m3
+	private static double cod = 15.0; // kg/m3
+	private static double toc = 5.0; // kg/m3
+	private static double nOrg = 0.3; // kg/m3
 	private static double alkVFA = 0.005; // kg CaCO3/m3
 	private static double alkIC = 0.001; // kg CaCO3/m3
 

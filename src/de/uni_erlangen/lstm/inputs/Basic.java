@@ -19,10 +19,10 @@ public class Basic {
 	double alkIC; // Bicarbonate Alkalinity [kg CaCO3/m3]
 	double alkVFA;	// Neutralized Fatty Acids [kg CaCO3/m3]
 	
-	// Molar masses (kg)
-	private double mO2 = 0.0319988;
-	private double mC = 0.0120107;
-	private double mN = 0.0140067;
+	// Molar masses
+	private double mO2 = 31.9988;
+	private double mC = 12.0107;
+	private double mN = 14.0067;
 	
 	public double getFlow() {
 		return flow;

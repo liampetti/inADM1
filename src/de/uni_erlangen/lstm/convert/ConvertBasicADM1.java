@@ -47,7 +47,7 @@ public class ConvertBasicADM1 {
 		this.yVFA = 4;
 		this.yCH4 = 65;
 		
-		this.T = 35;
+		this.T = 298;
 		this.Kh = 29.8;
 		this.Ka = 4.40e-7;
 		
