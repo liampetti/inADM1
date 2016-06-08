@@ -67,9 +67,11 @@ public class ConvertBasicADM1 {
 		
 		outputs.setQ_D(inputs.getFlow());
 		
-		outputs.setX_ch(inputs.getToc()*frac[3]*(yCHO/4)*mwO2);
-		outputs.setX_li(inputs.getToc()*frac[2]*(yLIP/4)*mwO2);
-		outputs.setX_pr(inputs.getToc()*frac[1]*(yPRO/4)*mwO2);
+		outputs.setX_ch(conc[3]);
+		outputs.setX_li(conc[2]);
+		outputs.setX_pr(conc[1]);
+		// Acetate is assumed to be the main VFA in the influent
+		outputs.setS_ac(conc[0]);
 		
 		// TODO: Check if better way of extracting S_cat and S_an from alkalinity measurements
 		// S_cat - S_an = alkVFA + alkIC

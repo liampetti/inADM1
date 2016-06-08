@@ -7,11 +7,11 @@ import de.uni_erlangen.lstm.models.adm1.StateVariables;
 public class BasicTest {
 	// Inputs
 	private static double flow = 170.0; // m3/d
-	private static double cod = 15.0; // kg/m3
-	private static double toc = 5.0; // kg/m3
-	private static double nOrg = 0.3; // kg/m3
-	private static double alkVFA = 0.005; // kg CaCO3/m3
-	private static double alkIC = 0.001; // kg CaCO3/m3
+	private static double cod = 15.0;//15.0; // kg/m3
+	private static double toc = cod/3.0;//5.0; // kg/m3
+	private static double nOrg = cod*0.02;//0.3; // kg/m3
+	private static double alkVFA = cod*0.00033;//0.005; // kg CaCO3/m3
+	private static double alkIC = alkVFA/5.0; //0.001; // kg CaCO3/m3
 
 	public static void main(String[] args) {
 		Basic inputs = new Basic();
