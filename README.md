@@ -1,4 +1,4 @@
-#inADM1
+# inADM1
 A Java program for converting basic measurements into state variables for jADM1. 
 
 
@@ -8,15 +8,15 @@ Lehrstuhl für Strömungsmechanik,
 Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 
 
-#Usage
+# Usage
 BasicTest class shows how to convert basic inputs into ADM1 state variables.
 
 
-#Dependencies
+# Dependencies
 * Requires jADM1
 
 
-#Credits
+# Credits
 
 
 Referenced works:
@@ -24,7 +24,7 @@ Referenced works:
 * Kleerebezem, R., and M. C. M. van Loosdrecht. “Waste Characterization for Implementation in ADM1.” Water Science and Technology: A Journal of the International Association on Water Pollution Research 54, no. 4 (2006): 167–74. doi:10.2166/wst.2006.538.
 
 
-#License
+# License
 >Copyright 2016 Liam Pettigrew
 >
 > Licensed under the Apache License, Version 2.0 (the "License");
